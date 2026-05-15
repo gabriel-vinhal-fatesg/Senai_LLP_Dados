@@ -1,9 +1,6 @@
-import java.util.Random;
 public class Main {
     public static void main(String[] args) {
-        Random sorte = new Random();
-
-        int num = sorte.nextInt(6) + 1;
+        int num = (int) (Math.random() * 6) + 1;
 
         switch(num) {
             case 1:
